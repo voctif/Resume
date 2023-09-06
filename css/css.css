@@ -1,0 +1,97 @@
+body{
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.fonteletra{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+}
+
+.linha-horizontal{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.linha-horizontal2{
+    width: 100%;
+    border-bottom: 2px solid #151316;
+}
+
+.hoverroxo{
+    color: #fff;
+}
+.hoverroxo:hover{
+    color:#6E0AAF !important;
+}
+
+.botaohabilidade{
+    background-image: linear-gradient(40deg,#7c12bf 0%,#bf04e5 100%);
+}
+.botaoinicio{
+    background-image: linear-gradient(40deg,#7c12bf 0%,#bf04e5 100%);
+}
+.botaoinicio:hover{
+    opacity:0.5;
+}
+
+.margintitulo{
+    margin-top: 17% !important;
+}
+.marginskills{
+    margin-top:20% !important;
+}
+
+.centralizarimg{
+    display: flex !important;
+    justify-content: center  !important;
+}
+  
+@media screen and (max-width: 480px){
+#imgtopo{
+display: none !important;
+}
+}
+
+.justificado{
+    text-align: justify  !important;
+}
+
+/*CARD EFEITOS*/
+.card{
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+#texto-animado::after{
+    content: '|';
+    margin-left: 4px;
+    animation: blink 0.7s infinite;
+
+}
+
+@keyframes blink{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+
+}
+
+#texto-animado {
+    overflow: hidden; 
+    font-size: 24px;
+    white-space: nowrap; 
+    margin: 0 auto; 
+  }
+ 
+  .animar {
+    animation: digitar 2s steps(30, end);
+  }
+  
+  @keyframes digitar {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css" >
+    <script src="js/index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fb6d262ee9.js" crossorigin="anonymous"></script>
+    <title>Curriculo</title>
+</head>
+
+<body style="background-color: #242128;">
+    <div class="container ">
+        <div class="row mt-5">
+            <div class="col-md-12 d-flex ">
+                <!--navbar-->
+                  <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid linha-horizontal">
+                      <a class="navbar fonteletra text-decoration-none me-2 hoverroxo " style="color: white;" href="#container-habilidade" >Sobre mim</a>
+                      <!--botao celular-->
+                      <button class="navbar-toggler bg-body-tertiary ms-3 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!--dropdown-->
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active fw-normal fonteletra hoverroxo" style="color: white;" aria-current="page" href="#container-habilidade">Habilidade</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active fw-normal fonteletra hoverroxo" style="color: white;" aria-current="page" href="#container-projetos">Projetos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active fw-normal fonteletra hoverroxo" style="color: white;" aria-current="page" href="#container-contato">Contato</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+        <!--titulo-->
+        <div class="row ">
+          <!--esquerda-->
+          <div class="col-md-5 ">
+              <div class="row my-5 col d-flex flex-column justify-content-center h-75 ">
+                <div class="col-md-7 margintitulo">
+                  <div class="col-md-12">
+                    <h2 style="color:#9C00FF " class="fw-bold">Prazer, sou o Victor</h2>
+                    <h3 id="texto-animado" style="color: white">Desenvolvedor Web</h3>
+                  </div>
+                  <!--botao-->
+                  <div class="row ">
+                    <div class="col-md-4 ">
+                      <a href="https://drive.google.com/file/d/1XHpML1iSB_1Rh4DS7KZhA7yWY3EI75WQ/view?usp=sharing" target="_blank" class="btn btn-success m-2 fw-semibold botaoinicio border border-0">Curriculo</a>               
+                    </div>
+                    <div class="col-md-6 ">
+                      <a href="https://www.linkedin.com/in/victor-mota-m/"  target="_blank" class="btn btn-secondary m-2 fw-semibold border border-0">Contato!</a>              
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                </div>
+                <div class="col-md-5 bg-danger"></div>
+              </div>
+          </div>
+          <!--direita-->
+          <div class="col-md-7 align-self-center margintitulo centralizarimg" id="imgtopo">
+            <img src="img/dev.png" width="80%">
+          </div>
+        </div>
+
+        <!--habilidades-->
+        <div class="row justify-content-evenly marginskills mb-5" id="container-habilidade">
+          <!--card esquerda-->
+            <div class="col-md-6 text-center">
+              <div class="card-body p-5 rounded shadow" style="background-color: #151316; color: white;">
+                <div class="row mb-4">          
+                  <h3 class="text-center">
+                    <span class="botaohabilidade px-4 py-1 pb-2 rounded">Sobre mim</span>
+                  </h3>
+                </div>
+                <img src="img/profile.png" width="40%">
+                <h4 class="my-3">Victor Gabriel Mota Moura</h4>
+                <p class="card-text justificado">Ola! Sou o Victor Mota, estudando de programação e desenvolvedor em progressão.</p>
+                <p class="card-text justificado">Começando a carreira com programação como Trainee na TATA Consultancy Services, focando 
+                  em Frontend utilizando JavaScript e Bootstrap assim como Html e Css, e começando a estudar React e Node como frameworks.
+                  Nos tempo livres gosto de jogar video games, assistir series e trabalha em projetos pessoais. 
+                </p>
+                <a href="https://drive.google.com/file/d/1XHpML1iSB_1Rh4DS7KZhA7yWY3EI75WQ/view?usp=sharing" target="_blank" class="btn text-center botaoinicio fw-semibold" style="color:white">Curriculo</a>
+              </div>
+            </div>
+            <!--card direita -->
+            <div class="col-md-6 text-center">
+              <div class="card-body p-5 rounded shadow" style="background-color: #151316; color: white;">
+                <div class="row mb-4">          
+                  <h3 class="text-center">
+                    <span class="botaohabilidade  px-4 py-1 pb-2 rounded">Habilidades</span>
+                  </h3>
+                </div>                
+                <h3 class="card-title text-center mb-4">Frontend</h3>
+                  <div class="row">
+                    <!--front-->
+                    <div class="col-md-3 ">
+                      <i class="fa-brands fa-html5 fa-4x hoverroxo" style="color: #ffffff; "></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">HTML5</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa-brands fa-css3-alt fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">CSS3</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa-brands fa-js fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">JavaScript</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa-brands fa-bootstrap fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">Bootstrap</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--back-->
+                  <h3 class="card-title text-center my-4">Backend</h3>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <i class="fa-brands fa-java fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">Java</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa-brands fa-aws fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">AWS</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-2">
+                      <i class="fa-solid fa-database fa-4x hoverroxo"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">MySQL</div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-2">
+                      <i class="fa-brands fa-php fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                        <div class="col-md-12 hoverroxo">PHP</div>
+                      </div>
+                    </div>
+                    </div>
+                  <!--auxiliares-->
+                  <h3 class="card-title text-center my-4">Auxiliares</h3>
+                  <div class="row">
+                     <div class="col-md-12">
+                       <i class="fa-brands fa-git-alt fa-4x hoverroxo" style="color: #ffffff;"></i>
+                      <div class="row mt-2 fw-semibold">
+                         <div class="col-md-12 hoverroxo">Git</div>
+                       </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+            <!--projetos-->
+            <div class="col-md-12  my-5" id="container-projetos">
+              <!--começo card geral-->
+              <div class="card-body p-5 rounded shadow" style="background-color: #151316; color: white;">
+                <!--titulo-->
+                <div class="col-md-12 mb-5">
+                  <h3 class="text-center">
+                    <span class=" px-4 py-1 pb-2 rounded text-center " style="background-color: #9C00FF;">Projetos</span>
+                  </h3>
+                </div>
+                <!--fileira projetos - pos row-->
+                <div class="row">
+                  <!--projeto gerenciamento de estoque-->
+                  <div class="col-md-4 py-3" onmousemove="setCardHoverEffect()">
+                    <div class="card shadow" style="width: 100%; background-color: #242128; color: white; " id="card" >
+                      <img src="img/tela.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title justificado">Controle de estoque</h5>
+                        <p class="card-text justificado">Controlador de estoque utilizando php e regras de segurança para senha</p>
+                        <div class="card-body linha-horizontal2 pt-2 ps-0">
+                          <span class="px-2 py-1 pb-1 rounded text-center fw-semibold" style="background-color: #9C00FF;">PHP</span>
+                          <span class="px-2 py-1 pb-1 rounded text-center fs-6 fw-semibold" style="background-color: #9C00FF;">HTML5</span>
+                          <span class="px-2 py-1 pb-1 rounded text-center fs-6 fw-semibold" style="background-color: #9C00FF;">CSS3</span>
+                        </div>  
+                        <a href="https://github.com/voctif/estoque" class="btn mt-4 botaoinicio" style="color: white;">Repositorio</a>
+                      </div>                  
+                    </div>
+                  </div>
+                  <!--proximo-->
+                  <div class="col-md-4 py-3">
+                    <div class="card shadow" style="width: 100%; background-color: #242128; color: white;" >
+                      <img src="img/breve.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title justificado">Em breve</h5>
+                        <p class="card-text justificado">...</p><br>
+                        <div class="card-body linha-horizontal2">
+                          <span class="px-2 py-1 pb-1 rounded text-center fs-6 fw-semibold" style="background-color: #9C00FF; visibility: hidden;">CSS3</span>
+                        </div>  
+                        <a href="#" class="btn mt-4 disabled botaoinicio" style="color: white;">Repositorio</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--proximo-->
+                  <div class="col-md-4  py-3">
+                    <div class="card shadow" style="width: 100%; background-color: #242128; color: white;" >
+                      <img src="img/breve.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title justificado">Em breve</h5>
+                        <p class="card-text justificado">...</p><br>
+                        <div class="card-body linha-horizontal2">
+                          <span class="px-2 py-1 pb-1 rounded text-center fs-6 fw-semibold" style="background-color: #9C00FF; visibility: hidden;">CSS3</span>
+                        </div>  
+                        <a href="#" class="btn mt-4 disabled botaoinicio" style="color: white;">Repositorio</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-center fw-semibold mt-3">
+                    Se quiser ver mais, meu github abaixo:
+                    <br>
+                    <a href="https://github.com/voctif" title="" class="btn btn-light mt-3">
+                      <span class="icon"><i class="fa-brands fa-github me-1 fa-xl" style="color: #9C00FF;"></i></span> GitHub
+                  </a>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--footer com contato-->
+    <footer class="container-fluid text-center" style="background-color: #151316; color: white;" id="container-contato">
+      <div class="container py-3">
+          <p class=" fw-semibold ">Contato</p>
+            <div class="d-inline-flex flex-column m-1 pb-2">
+              <a href="mailto:victorgabriell1177@gmail.com?subject=subject text" target="">
+                <i class="fa-solid fa-envelope fa-2xl hoverroxo" style="color: #ffffff;"></i>
+              </a>
+            </div>
+            <div class="d-inline-flex flex-column m-1">
+              <a href="https://www.linkedin.com/in/victor-mota-m/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-2xl hoverroxo" style="color: #ffffff;"></i>
+              </a>
+            </div>
+            <div class="d-inline-flex flex-column m-1">
+              <a href="https://github.com/voctif" target="_blank">
+                <i class="fa-brands fa-github-alt fa-2xl hoverroxo" style="color: #ffffff;"></i>
+              </a>
+            </div>    
+            <p class="fw-semibold ">Victor Mota 2022 © All rights reserved </p>    
+      </div>
+    </footer>
+</body>
+</html>
